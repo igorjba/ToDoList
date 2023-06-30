@@ -1,4 +1,4 @@
-export function Home() {
+export function Todos() {
     return (
         <h1>Todos</h1>
     )
