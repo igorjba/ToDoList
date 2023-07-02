@@ -6,7 +6,7 @@ import { Error } from './pages/Error'
 import { Header } from './components/Header'
 
 export function ProtectedRoutes({ redirectTo }) {
-    const token = 'blablabla'
+    const token = "blablabla"
     return token ? <Outlet /> : <Navigate to={redirectTo} />
 }
 
